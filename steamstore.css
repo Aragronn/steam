@@ -1,0 +1,284 @@
+body {
+    font-family: arial;
+    margin: 0;   
+    background-color: gray; 
+    height: 2000px;
+    padding-top: 100px;
+}
+.ui {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.optionlist {
+    position: fixed;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
+.steam-link {
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+}
+.settings {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    color: lightgray;
+    height: 30px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.settings-button {
+    width: 350px;
+    background-color: rgb(29, 29, 29); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+}
+.steam-button {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.steam-logo {
+    height: 20px;
+    border-radius: 10px;
+}
+.steam-profile {
+    padding-left: 10px;
+}
+.extra {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 29, 29);
+}
+.extra-justify {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-between;
+}
+.speaker-logo {
+    height: 20px;
+    border-radius: 3px;
+}
+.bell-logo {
+    height: 20px;
+    border-radius: 3px;
+}
+.profile-settings {
+    display: flex;
+    align-items: center;
+    background-color: rgb(75, 75, 75);
+    border-radius: 3px;
+    padding-left: 5px;
+    padding-right: 10px;
+}
+.profile-pictures {
+    height:20px;
+    width: 30px;
+    object-fit: cover;
+}
+.profile-name {
+    color: rgb(0, 183, 255);
+    font-weight: bold;
+    padding-left: 5px;
+    font-size: 12px;
+}
+.desktop-logo {
+    height: 20px;
+    border-radius: 3px;
+    object-fit: cover;
+}
+.minimize-logo {
+    height: 20px;
+    border-radius: 3px;
+}
+.maximize-logo {
+    height: 20px;
+    border-radius: 3px;
+}
+.close-logo {
+    height: 20px;
+    border-radius: 3px;
+    margin-right: 5px;
+    background-color: lightgray;
+}
+.optionlist {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    justify-content: start;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    color: lightgray;
+    height: 40px;
+    background-color: rgb(29, 29, 29);
+}
+.backarrow {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+.arrow, .store, .library, .community, .profile-view {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.title-store {
+    position: relative;
+}
+.title-store .tooltip,
+.title-library .tooltip,
+.title-community .tooltip,
+.title-profile .tooltip {
+    position: absolute;
+    background-color: rgb(75, 75, 75);
+    border-radius: 2px;
+    margin-top: 12px;
+    width: 110px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 28px;
+    opacity: 0;
+    transition: opacity 0.05s;
+    pointer-events: none;
+}
+.download {
+    border-top-style: solid;
+    border-top-width: 1px;
+    margin-top: 5px;
+}
+.steam-link {
+    background-color: rgb(29, 29, 29);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.refresh, .lock, .website-link {
+    margin-left: 10px;
+    padding-bottom: 3px;
+    color: gray;
+}
+.refresh {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 3px;
+}
+.linked {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border-radius: 20px;
+    padding-right: 15px;
+    padding-top: 3px;
+    margin-bottom: 3px;
+}
+.website-link {
+    font-size: 12px;
+}
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(38, 38, 63);
+    height: 45px;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 14px;
+}
+.center {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.starwish {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+.wishlist {
+    font-size: 14px;
+    padding-left: 5px;
+}
+.search-input {
+    display: flex;
+    align-items: center;
+}
+.searchbar {
+    background-color: rgb(199, 199, 199);
+    width: 400px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    font-style: italic;
+    margin-right: 0;
+}
+.searchbar:hover {
+    border-color: rgb(0, 183, 255);
+}
+.search-icon {
+    height: 17px;
+    background-color: rgb(0, 183, 255);
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    margin-left: -5px;
+}
+main nav {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+    padding-bottom: 300px;
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: darkblue;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    width: 700px;
+    border-radius: 20px;
+    padding: 30px 5px;
+}
+.explanation {
+    display: flex;
+    font-size: 16px;
+    margin-top: 5px;
+    color: black;
+    font-style: normal;
+    font-weight: 400;
+}

@@ -1,0 +1,35 @@
+/* JavaScript is required to create interactive designs*/
+
+.steam-button:hover,
+.view-button:hover,
+.friends-button:hover,
+.games-button:hover,
+.help-button:hover {
+    color: white;
+    cursor: pointer;
+}
+.backarrow:hover,
+.arrow:hover,
+.store:hover,
+.library:hover,
+.community:hover,
+.profile-view:hover {
+    color: white;
+    cursor: pointer;
+}
+.refresh:hover,
+.linked:hover,
+.linked:hover .website-link {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    cursor: pointer;
+}
+.searchbar:hover {
+    border-color: rgb(0, 183, 255);
+}
+.title-store:hover .tooltip,
+.title-library:hover .tooltip,
+.title-community:hover .tooltip,
+.title-profile:hover .tooltip {
+    opacity: 1;
+}
